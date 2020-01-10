@@ -153,7 +153,7 @@ function init() {
   }, false);
 
   if (navigator.appVersion.indexOf("Mac") != -1) {
-    chrome.browserAction.setTitle({'title': 'Deluminate (Cmd+Shift+F11)'});
+    chrome.browserAction.setTitle({'title': 'Dark Theme (Cmd+Shift+F11)'});
   }
   chrome.commands.onCommand.addListener(function(command) {
     switch(command) {

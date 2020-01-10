@@ -1,16 +1,10 @@
 {
-  "name": "deluminate",
-  "version": "0.7.7",
-  "description": "Invert the luminance of a website to make it easier on the eyes.",
+  "name": "Dark Theme",
   "scripts": {
     "lint": "jshint *.js",
     "test": "jasmine",
     "deploy": "./deploy --release",
     "deploy-dev": "./deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abstiles/deluminate.git"
   },
   "keywords": [
     "chrome",
@@ -20,12 +14,7 @@
     "dark",
     "contrast"
   ],
-  "author": "Andrew Stiles",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/abstiles/deluminate/issues"
-  },
-  "homepage": "https://deluminate.github.io",
+  "author": "Sarah Hatley",
   "devDependencies": {
     "chrome-webstore-upload-cli": "^1.1.1",
     "jasmine": "^2.5.3",

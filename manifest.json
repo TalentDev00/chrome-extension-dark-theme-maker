@@ -5,14 +5,14 @@
    "browser_action": {
       "default_icon": "deluminate-128.png",
       "default_popup": "popup.html",
-      "default_title": "Deluminate (Shift+F11)"
+      "default_title": "Dark Theme (Shift+F11)"
    },
    "commands" : {
      "command_toggle_global": {
-       "description": "Toggle Deluminate on/off"
+       "description": "Toggle on/off"
      },
      "command_toggle_site": {
-       "description": "Toggle inversion on a site"
+       "description": "Toggle on a site"
      }
    },
    "content_scripts": [ {
@@ -22,14 +22,14 @@
       "match_about_blank": true,
       "run_at": "document_start"
    } ],
-   "description": "Invert the luminance of a website to make it easier on the eyes.",
+   "description": "Allow users to see websites in Dark Mode",
    "icons": {
       "128": "deluminate-128.png"
    },
-   "name": "Deluminate",
+   "name": "Dark Theme",
    "manifest_version": 2,
    "options_page": "options.html",
    "permissions": [ "<all_urls>", "tabs" ],
    "web_accessible_resources": [ "deluminate.css" ],
-   "version": "0.7.7"
+   "version": "1.0" 
 }
